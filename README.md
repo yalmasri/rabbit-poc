@@ -27,5 +27,7 @@ you can run as mush as you want listener and rabbit will send a message the firs
 ### Refs:
 
 https://www.rabbitmq.com/tutorials/tutorial-one-ruby.html
+
 https://www.rabbitmq.com/confirms.html
+
 http://localhost:8001
