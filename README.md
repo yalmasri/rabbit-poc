@@ -13,14 +13,14 @@ $ docker run -d --hostname rabbit.local --name rabbit -p 8001:15672 -p 5672:5672
 
 ### Publishing:
 
-  $ ruby publisher.rb
+    $ ruby publisher.rb
 
 this will publish a hash message to the queue `hello`
 
 
 ### Receiving:
 
-  $ ruby listener.rb
+    $ ruby listener.rb
 
 you can run as mush as you want listener and rabbit will send a message the first available listener.
 
